@@ -54,3 +54,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+section img{
+width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+display:block;
+margin:auto;
+}
