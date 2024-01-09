@@ -357,11 +357,9 @@ input[type=text],button{
 }
 .img-icon{
     display: flex;
-    width: 64px;
-height: 104px;
-margin-left:300px;
-padding: 80px 140px;
-gap:15px;
+    justify-content: center;
+    gap:10px;
+
 }
 .rights-reserved-footer-text{
     color: #FFF;
