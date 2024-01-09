@@ -333,10 +333,70 @@ line-height: 32px; /* 160% */
 input[type=text],button{
     padding:15px 30px 15px 30px ;
     margin-top:40px;
-    border-radius: 10px;
+    border-radius: 5px;
+    border-right-style:none;
+
 }
 .subscribe-button{
     justify-content: center;
     align-items: center;
     display: flex;
+}
+ /* .footer-section {
+    width:100%;
+    height: auto;
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.footer-paragraph {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    /* font-weight: 500;
+    line-height: 40px;
+} */
+.footer-section{
+    background-color:black;
+    width: 1600px;
+    height: 600px;
+    color:white;
+}
+.footer-section-content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+.img-icon{
+    display: flex;
+    width: 64px;
+height: 104px;
+margin-left:300px;
+padding: 80px 140px;
+gap:15px;
+}
+.rights-reserved-footer-text{
+    color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 100px;
+margin-left:50px
+}
+.unsubscribe-footer-text{
+margin-left:1100px
+
+/* color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+     */
 }
