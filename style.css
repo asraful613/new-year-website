@@ -297,3 +297,46 @@ margin-bottom: 15px;
     height: 500px;
     cursor: pointer;
    }
+.subscribe-letter{
+width: 1320px;
+height: 616px;
+flex-shrink: 0;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin-top: 50px;
+border:.5px solid rgb(243, 237, 237);
+}
+.email{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 100px;
+}
+.subscribe-letter .paragraph-title{
+color: #070211;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+text-transform: capitalize;
+margin-top: 10px;
+}
+.subscribe-letter .paragraph{
+text-align: center;
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+input[type=text],button{
+    padding:15px 30px 15px 30px ;
+    margin-top:40px;
+    border-radius: 10px;
+}
+.subscribe-button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
