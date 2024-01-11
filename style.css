@@ -36,6 +36,7 @@ font-size: 88px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-top: 50px;
 }
 main p{
  color: #F00;
@@ -372,4 +373,9 @@ margin-left:50px
 }
 .unsubscribe-footer-text{
 margin-left:1100px
+}
+@media screen and (max-width:576px) {
+    .picture-one,.picture-two{
+        flex-direction: column;
+    }
 }
